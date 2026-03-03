@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alex Doe — Data Analytics Portfolio</title>
+  <meta name="description" content="Portfolio of Alex Doe — Data Analytics MS candidate specializing in ML, statistical modeling, and data visualization." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Intro overlay with 3-second sliding name caption -->
+  <div id="intro" aria-hidden="true">
+    <div class="intro__caption">
+      <span class="intro__hi">Hello, I'm</span>
+      <h1 class="intro__name">Alex Doe</h1>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a href="#top" class="logo" aria-label="Alex Doe home">AD</a>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav__menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="about">
+      <div class="hero__content">
+        <p class="eyebrow">Data Analytics • Machine Learning • Visualization</p>
+        <h2>Turning data into decisions.</h2>
+        <p class="lead">I'm <strong>Alex Doe</strong>, an MS candidate in Data Analytics at Ohio State University (expected May 2026). I build predictive models, automate analytics workflows, and craft clear, visual stories for stakeholders.</p>
+        <div class="cta">
+          <a class="btn btn--primary" href="#projects">See my work</a>
+          <a class="btn btn--ghost" href="#contact">Contact me</a>
+        </div>
+        <ul class="meta">
+          <li>Columbus, OH</li>
+          <li><a href="mailto:alex.doe@email.com">alex.doe@email.com</a></li>
+          <li><a href="https://linkedin.com/in/alexdoe" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/alexdoe" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="hero__decor" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="skills">
+      <h3 class="section__title">Skills</h3>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">R</span>
+        <span class="chip">SQL</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Pandas</span>
+        <span class="chip">NumPy</span>
+        <span class="chip">scikit-learn</span>
+        <span class="chip">Matplotlib</span>
+        <span class="chip">Seaborn</span>
+        <span class="chip">Tableau</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">Excel (Advanced)</span>
+        <span class="chip">Git</span>
+        <span class="chip">Jupyter</span>
+        <span class="chip">VS Code</span>
+        <span class="chip">AWS (EC2, S3)</span>
+        <span class="chip">Azure Fundamentals</span>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h3 class="section__title">Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Customer Churn Prediction</h4>
+          <p class="card__meta">Python • scikit-learn</p>
+          <p>Built logistic regression and random forest models to identify at-risk customers for a telecom provider. Engineered features from 7k+ records and improved accuracy from <strong>71% → 86%</strong>. Visualized churn drivers for stakeholders.</p>
+        </article>
+        <article class="card">
+          <h4>Sales Forecasting Dashboard</h4>
+          <p class="card__meta">Tableau • SQL</p>
+          <p>Designed an interactive dashboard to forecast monthly sales for a retail chain. Integrated SQL with Tableau to automate refresh; reduced manual reporting time by <strong>40%</strong> and enabled KPI tracking in real time.</p>
+        </article>
+        <article class="card">
+          <h4>NLP Résumé Classifier</h4>
+          <p class="card__meta">Python • NLP</p>
+          <p>Developed a TF–IDF + Naive Bayes classifier to group résumés into role clusters. Achieved <strong>82%</strong> accuracy and shipped a lightweight web interface for testing new résumés.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <h3 class="section__title">Experience</h3>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h4>Data Analytics Intern — Nationwide Insurance</h4>
+            <p class="timeline__meta">Columbus, OH • Summer 2025</p>
+            <ul>
+              <li>Analyzed claims and customer behavior data to identify fraud indicators, contributing to a <strong>12% improvement</strong> in detection precision.</li>
+              <li>Automated weekly reporting using Python and SQL, cutting processing time from 3 hours to 20 minutes.</li>
+              <li>Presented insights to cross-functional teams.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h4>Graduate Research Assistant — Ohio State University</h4>
+            <p class="timeline__meta">2024–2025</p>
+            <ul>
+              <li>Cleaned and analyzed survey datasets (10,000+ responses) for a study on consumer financial behavior.</li>
+              <li>Built regression and clustering models to uncover spending patterns and demographic trends.</li>
+              <li>Co-authored a poster presented at the Midwest Data Science Conference.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <h3 class="section__title">Education</h3>
+      <div class="edu">
+        <div class="edu__item">
+          <h4>MS in Data Analytics</h4>
+          <p>Ohio State University — Expected May 2026</p>
+          <p class="muted">Machine Learning, Statistical Modeling, Data Mining, Database Systems, Data Visualization, Cloud Computing</p>
+        </div>
+        <div class="edu__item">
+          <h4>BS in Mathematics</h4>
+          <p>University of Cincinnati — May 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certs">
+      <h3 class="section__title">Certifications</h3>
+      <ul class="bullets">
+        <li>Tableau Data Analyst (2025)</li>
+        <li>AWS Cloud Practitioner — In Progress</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h3 class="section__title">Get in touch</h3>
+      <p>Want to collaborate or chat about data? Reach out:</p>
+      <ul class="contact">
+        <li>Email: <a href="mailto:alex.doe@email.com">alex.doe@email.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/alexdoe" target="_blank" rel="noopener">linkedin.com/in/alexdoe</a></li>
+        <li>GitHub: <a href="https://github.com/alexdoe" target="_blank" rel="noopener">github.com/alexdoe</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Alex Doe — Built with HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
